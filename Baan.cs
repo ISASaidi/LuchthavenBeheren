@@ -12,6 +12,7 @@ namespace LuchthavenBeheren
 
         public string Code { get; set;}// kan een if aan de setter megegeven worden om zeker te zijn dat de ingegeven code niet langer is dan 3 zoals in meegegeven voorbeeld
         public bool Vrij { get; set; }
+        string test;
 
         public Baan()
         {
